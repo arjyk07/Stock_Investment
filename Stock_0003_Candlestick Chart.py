@@ -47,7 +47,7 @@ ax.plot(index, lgd_df['MA20'], label='MA20', linewidth=0.7)
 ax.plot(index, lgd_df['MA60'], label='MA60', linewidth=0.7)
 
 # x축 티커 숫자 20개로 제한
-ax.xaxis.set_major_locater(ticker.MaxNLocator(20))
+ax.xaxis.set_major_locater(ticker.MaxNLocator(20))      # 진행안됨
 
 # 그래프 title과 축 이름 지정
 ax.set_title('LG Display', fontsize=22)
