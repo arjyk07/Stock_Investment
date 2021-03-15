@@ -104,5 +104,4 @@ for kr_ticker in ['069500', '005930', '034220', '006650', '035720']:
     geo['Open2Close'].plot(ax=axes[0], color='b')
     geo['Close2TmrOpen'].plot(ax=axes[1], color='r')
 
-    plt.legen('best')
     plt.show()
