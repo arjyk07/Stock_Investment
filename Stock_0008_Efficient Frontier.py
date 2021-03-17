@@ -29,7 +29,6 @@ annual_ret
 daily_cov
 annual_cov
 
-
 # 몬테카를로 시뮬레이션
 for _ in range(20000):
     weights = np.random.random(len(stocks))
