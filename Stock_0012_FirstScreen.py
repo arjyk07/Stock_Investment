@@ -1,6 +1,6 @@
 # 참고 : 파이썬 증권데이터 분석(김황후 저)
 
-### p293 삼중창 매매 시스템
+### p293 삼중창 매매 시스템 - 첫번째 창 : 시장 조류(Market Tide), 장기차트
 import pandas as pd
 import matplotlib.pyplot as plt
 import datetime
