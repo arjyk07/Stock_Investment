@@ -22,7 +22,6 @@ kospi_top10.insert(3, 'SK텔레콤')
 # 튜플
 t = ('Samsung', 'LG', 'SK')
 
-
 # 참고 : https://wikidocs.net/2856
 # 딕셔너리 : 연관되는 데이터 저장
 cur_price = {}
@@ -49,7 +48,7 @@ price_list
 'daeshin' in cur_price.keys()       # True
 
 
-# 참고 : 연습문제 https://wikidocs.net/3037
+# 참고 : https://wikidocs.net/3037
 ### 연습문제 3-1
 # 리스트 만들기
 naver_closing_price = [474500, 461500, 501000, 500500, 488500]
